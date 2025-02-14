@@ -6,7 +6,10 @@ INSERT INTO workout_names (workout_name, workout_type) VALUES
         ('Upper Body Strength', 'strength'),
         ('Lower Body Strength', 'strength'),
         ('HIIT Circuit', 'cardio'),
-        ('Pilates', 'mobility');
+        ('Pilates', 'mobility'),
+        ('Push', 'strength'),
+        ('Pull', 'strength'),
+        ('Legs', 'strength');
 
 
 INSERT INTO workout_events (workout_name, workout_note) VALUES

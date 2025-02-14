@@ -1,0 +1,1 @@
+SELECT * FROM workout_names WHERE workout_type = 'strength';
