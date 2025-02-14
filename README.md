@@ -43,6 +43,7 @@ sqlite3 db03_queries.py
 
 Using GitHub's [integration](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/) with [Mermaid.js](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 
+```mermaid
 ---
 title: Tables
 ---
@@ -62,3 +63,4 @@ erDiagram
     }
 
     workout_names ||--o{ workout_events : classifies
+```
