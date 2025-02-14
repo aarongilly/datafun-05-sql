@@ -13,3 +13,5 @@ From the [spec](https://github.com/denisecase/datafun-05-spec?tab=readme-ov-file
 3. Do additional operations - filter, query, insert, CRUD, modify the schema
 4. Perform aggregations with queries
 5. ...and potentially some other stuff. The spec indicates it is a work in progress.
+
+# Documentation
