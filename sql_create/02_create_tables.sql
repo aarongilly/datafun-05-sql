@@ -13,8 +13,9 @@ CREATE TABLE workout_names (
 -- Be sure to create the standalone authors table BEFORE creating the books table.
 
 CREATE TABLE workout_events (
-    workout_id SERIAL PRIMARY KEY,
-    timestamp TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    workout_name TEXT NOT NULL REFERENCES workout_names(workout_name) ON DELETE CASCADE,
-    workout_note TEXT NULL
+    workout_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp TEXT NOT NULL DEFAULT (datetime('now')),
+    workout_name TEXT NOT NULL,
+    workout_note TEXT NULL,
+    FOREIGN KEY (workout_name) REFERENCES workout_names(workout_name) ON DELETE CASCADE
 );
